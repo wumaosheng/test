@@ -9,3 +9,8 @@ echo $a1->get();
 
 $sky=new \cky\cool();
 echo $sky->get();
+
+
+$aaa=[1,2,3,4];
+
+dump($aaa);
