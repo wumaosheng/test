@@ -1,0 +1,22 @@
+{
+    "name": "wms/test",
+    "description": "test",
+    "authors": [
+        {
+            "name": "wms",
+            "email": "wumaosheng@qq.com"
+        }
+    ],
+    "require": {
+      "monolog/monolog": "1.0.*"
+  },
+  "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+          "Foo\\": "src/"
+        },
+        "files": ["src/fun.php"],
+        "classmap": [ "lib/"]
+
+      }
+}
