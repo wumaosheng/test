@@ -9,5 +9,3 @@ echo $a1->get();
 
 $sky=new \cky\cool();
 echo $sky->get();
-
-
